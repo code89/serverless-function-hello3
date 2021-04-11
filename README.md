@@ -16,6 +16,13 @@ Will redirect default '/.netlify/functions/1-hello'
 It hides the 'redirected one'.  
 
 
-#### Unchecked VSCode: 
-### ```settings > javascript > suggest : Auto Imports```
-To prevent Axios import suggestions 
+#### Unchecked VSCode settings: 
+To prevent Axios import suggestions
+```settings > javascript > suggest : Auto Imports```
+
+#### You can now use either url to retrive serverless function the message
+```https://serverless-function-hello3.netlify.app/api/1-hello```
+
+```https://serverless-function-hello3.netlify.app/.netlify/functions/1-hello```
+
+"Our First Netlify Function Example"
